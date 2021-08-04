@@ -1,15 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='index.js'></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Torre Hanoi</title>
+    
 </head>
 <body>
-    
-</body>
 
+    <header>
+        <h1>Torre de Hanoi</h1>
+        <p>By - Gyl Monteiro e Fernanda Baia</p>
+    </header>    
+
+    <div id="container">
+        <div class="torre" id="torre1">
+            <div class="bastao" id="bastao1"></div>
+            <div class=" disco disco0" id="disco1_0"></div>
+            <div class=" disco disco1" id="disco1_1"></div>
+            <div class=" disco disco2" id="disco1_2"></div>
+            <div class=" disco disco3" id="disco1_3"></div>
+        </div>
+        
+        <div class="torre" id="torre2">
+            <div  class="bastao" id="bastao2"></div>
+            <div  class= "" id="disco2_0"></div>
+            <div  class= "" id="disco2_1"></div>
+            <div  class= "" id="disco2_2"></div>
+            <div  class= "" id="disco2_3"></div>
+        </div>
+
+        <div class="torre" id="torre3">
+            <div class="bastao" id="bastao3"></div>
+            <div class= "" id="disco3_0"></div>
+            <div class= "" id="disco3_1"></div>
+            <div class= "" id="disco3_2"></div>
+            <div class= "" id="disco3_3"></div>
+        </div>
+        <div class="legenda">
+            <button onclick="save(pa)" type="button">A</button>
+            <button onclick="save(pb)" type="button">B</button>
+            <button onclick="save(pc)" type="button">C</button>
+        </div>
+      
+    </div>
+</body>
+<script src="script.js"></script>
 </html>
